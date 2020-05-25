@@ -11,12 +11,10 @@ Microsoft Azure Storage Explorer can be used to check the logs.</Description>
     <PackageProjectUrl>https://github.com/thecuriousbit/CloudLogger</PackageProjectUrl>
     <RepositoryUrl>https://github.com/thecuriousbit/CloudLogger</RepositoryUrl>
     <PackageTags>Logger, Centralised Logging, Cloud Logger</PackageTags>
-    <PackageReleaseNotes>1. Removed  auto generation of file name and line number as it was working only when pdb files were available
-2. Added Module name in logging functions. It will enable effecting log filtering if needed
-3. Added missing try catch in the logging function</PackageReleaseNotes>
+    <PackageReleaseNotes>Generated new version to upload with signature</PackageReleaseNotes>
     <PackageIcon>CloudLogger.jpg</PackageIcon>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
-    <Version>1.1.0</Version>
+    <Version>1.1.1</Version>
   </PropertyGroup>
 
   <ItemGroup>

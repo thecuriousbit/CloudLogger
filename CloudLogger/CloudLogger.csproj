@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Authors>Mrinnal Sahani</Authors>
+    <Company />
+    <Description>CloudLogger pushes the custom logs from application to the specified Azure Table.
+Microsoft Azure Storage Explorer can be used to check the logs.</Description>
+    <Copyright>Copyright (c) 2020 thecuriousbit</Copyright>
+    <PackageLicenseExpression></PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/thecuriousbit/CloudLogger</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/thecuriousbit/CloudLogger</RepositoryUrl>
+    <PackageTags>Logger, Centralised Logging, Cloud Logger</PackageTags>
+    <PackageReleaseNotes>1. Removed  auto generation of file name and line number as it was working only when pdb files were available
+2. Added Module name in logging functions. It will enable effecting log filtering if needed
+3. Added missing try catch in the logging function</PackageReleaseNotes>
+    <PackageIcon>CloudLogger.jpg</PackageIcon>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <Version>1.1.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Azure.Cosmos.Table" Version="1.0.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\CloudLogger.jpg">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="..\LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
